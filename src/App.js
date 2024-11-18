@@ -7,7 +7,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <h1>{picture.title}</h1>
-                <img src={picture.imageUrl} className="pictureName"/>
+                <img src={picture.imageUrl} alt={"pic1"} className="pictureName"/>
                 <p>{picture.description}</p>
             </header>
         </div>
