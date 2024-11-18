@@ -1,0 +1,9 @@
+.pictureName {
+  width: 50%;
+}
+
+/*When mouse over the image, it will enlarge*/
+.pictureName:hover {
+  transform: scale(1.1);
+}
+
